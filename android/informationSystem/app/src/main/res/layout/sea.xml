@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/tasksquare">
+    <ImageView
+        android:id = "@+id/head"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src = "@drawable/people"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"/>
+    <TextView
+        android:id = "@+id/seaname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "姓名:"
+        android:layout_toRightOf="@id/head"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:id = "@+id/inputname"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/seaname"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="5dp"/>
+
+    <TextView
+        android:id = "@+id/seapeonumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "身份证号:"
+        android:layout_below="@id/seaname"
+        android:layout_toRightOf="@id/head"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:id = "@+id/inputpeonumber"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/seapeonumber"
+        android:layout_below="@id/inputname"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"/>
+
+    <TextView
+        android:id = "@+id/seaphone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "手机号:"
+        android:layout_below="@id/seapeonumber"
+        android:layout_toRightOf="@id/head"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"/>
+    <TextView
+        android:id = "@+id/inputphone"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/seaphone"
+        android:layout_below="@id/inputpeonumber"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"/>
+
+    <TextView
+        android:id = "@+id/seaaddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "住址:"
+        android:layout_below="@id/seaphone"
+        android:layout_toRightOf="@id/head"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"/>
+    <TextView
+        android:id = "@+id/inputaddress"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/seaaddress"
+        android:layout_below="@id/inputphone"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"/>
+
+
+</RelativeLayout>

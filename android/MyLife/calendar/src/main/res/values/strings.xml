@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">CalendarView</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="desc_hint">请输入具体信息，如：买新衣服、吃午餐、文教等</string>
+    <string name="num_hint">How much</string>
+    <string-array name="testlist">
+        <item>账单1</item>
+        <item>账单2</item>
+        <item>账单3</item>
+        <item>账单4</item>
+        <item>账单5</item>
+        <item>账单6</item>
+    </string-array>
+</resources>

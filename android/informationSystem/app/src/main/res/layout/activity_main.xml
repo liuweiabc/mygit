@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fadingEdge="vertical">
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="217dp"
+            android:background="@drawable/top"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/title1" />
+
+            <ImageView
+                android:id="@+id/bigview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:src="@drawable/poster" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true">
+
+                <ImageView
+                    android:id="@+id/search"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:src="@drawable/find" />
+
+                <ImageView
+                    android:id="@+id/search2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/search"
+                    android:src="@drawable/introduction" />
+
+                <ImageView
+                    android:id="@+id/search3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="320dp"
+                    android:src="@drawable/analysis" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <ImageView
+            android:id = "@+id/one"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src = "@drawable/group1"/>
+
+        <ImageView
+            android:id="@+id/two"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/group2" />
+
+        <ImageView
+            android:id = "@+id/three"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src = "@drawable/group3"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/backofbottom"
+            android:gravity="bottom">
+
+            <ImageButton
+                android:id="@+id/main"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/main"
+                android:layout_marginLeft = "30dp"
+                android:layout_centerVertical="true"
+                android:background="#FFFFFF"/>
+
+            <ImageButton
+                android:id="@+id/mywork"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/work"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:background="#FFFFFF"/>
+
+            <ImageButton
+                android:id="@+id/person"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/people"
+                android:layout_marginLeft = "300dp"
+                android:layout_centerVertical="true"
+                android:background="#FFFFFF"/>
+        </RelativeLayout>
+
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,7 @@
+include ':picture'
+include ':calculator'
+include ':calendar'
+include ':easynavigation'
+include ':GestureTest'
+include ':app'
+rootProject.name = "MyLife"

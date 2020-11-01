@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/tasksquare">
+    <ImageView
+        android:id = "@+id/bosspic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src = "@drawable/bosspicture"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"/>
+
+    <ImageView
+        android:id = "@+id/boss"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src = "@drawable/boss"
+        android:layout_toRightOf="@id/bosspic"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="25dp"/>
+    <TextView
+        android:id = "@+id/tasktext"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bosspic"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="25dp"/>
+
+    <TextView
+        android:id = "@+id/tasktime"
+        android:layout_width="100sp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tasktext"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="25dp"/>
+    <ImageButton
+        android:id = "@+id/finish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src = "@drawable/finish"
+        android:layout_toRightOf="@id/tasktime"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="90dp"
+        android:background="#00000000"/>
+
+
+</RelativeLayout>

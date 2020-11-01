@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorBlueLight"
+    android:scaleType="fitXY">
+    <ImageView
+        android:id = "@+id/head1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src = "@drawable/headimg"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="25dp"/>
+    <TextView
+        android:id="@+id/time1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="time"
+        android:layout_toRightOf="@id/head1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"/>
+    <TextView
+        android:id="@+id/income_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="收入:"
+        android:layout_below="@id/time1"
+        android:layout_toRightOf="@id/head1"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="20dp"/>
+    <TextView
+        android:id="@+id/income"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/income_title"
+        android:text="number"
+        android:layout_below="@id/time1"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/outcome_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="支出:"
+        android:layout_below="@id/time1"
+        android:layout_toRightOf="@id/income"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="40dp"/>
+    <TextView
+         android:id="@+id/outcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/outcome_title"
+        android:text="number"
+        android:layout_below="@id/time1"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="10dp"/>
+    <TextView
+        android:id="@+id/total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="number"
+        android:layout_toRightOf="@id/time1"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="100dp"/>
+</RelativeLayout>

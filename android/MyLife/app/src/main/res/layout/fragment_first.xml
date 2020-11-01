@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.firstFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/backgroundone">
+        <TextView
+            android:id="@+id/firstWelcome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="welcome to MyLife!"
+            android:layout_gravity="center"
+            android:layout_marginTop="250dp"
+            android:textSize="40sp"/>
+        <TextView
+            android:id="@+id/auditor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="制作人：刘伟  王艳  叶彬玮  梁其用"
+            android:textSize="20sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"/>
+    </LinearLayout>
+
+</FrameLayout>

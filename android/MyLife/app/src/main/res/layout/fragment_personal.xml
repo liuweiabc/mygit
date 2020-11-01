@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.Personal"
+    android:background="@drawable/background">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/userimg"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="100dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/headimg"/>
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/userimg"
+            android:text = "显示用户名"
+            android:textSize="20sp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"/>
+        <LinearLayout
+            android:id="@+id/lv1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/username"
+            android:layout_marginTop="70dp"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/mymenu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="我的账单"
+                android:layout_marginLeft="40dp"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:id="@+id/modify_password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="修改用户密码"
+                android:layout_marginLeft="40dp"
+                android:textSize="20sp"
+                android:layout_marginTop="30dp"/>
+            <TextView
+                android:id="@+id/modify_gesture"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="设置手势密码"
+                android:layout_marginLeft="40dp"
+                android:textSize="20sp"
+                android:layout_marginTop="30dp"/>
+            <TextView
+                android:id="@+id/modify_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="修改用户资料"
+                android:layout_marginLeft="40dp"
+                android:textSize="20sp"
+                android:layout_marginTop="30dp"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/dismiss"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lv1"
+            android:layout_marginTop="35dp"
+            android:layout_centerHorizontal="true"
+            android:text="退出登录"
+            android:textSize="20sp"/>
+
+    </RelativeLayout>
+
+</FrameLayout>
