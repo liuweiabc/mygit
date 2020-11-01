@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="actionsheet_blue">#037BFF</color>
+    <color name="actionsheet_gray">#8F8F8F</color>
+    <color name="found_description_color">#aaaaaa</color>
+    <color name="found_divide_color">#d9d9d9</color>
+    <color name="found_text_color">#353535</color>
+    <color name="light_blue">#ADD8E6</color>
+    <color name="light_green">#0ac39e</color>
+    <color name="main_color">#0ac39e</color>
+    <color name="reveal_color">#1b000000</color>
+    <color name="text_light_blue">#2d7ac1</color>
+    <color name="text_light_gray">#989898</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#FFFFFF</color>
+    <item name="imageloader_uri" type="id"/>
+    <string name="all_pic">全部图片</string>
+    <string name="app_name">MyPhoto</string>
+    <string name="choose">选择</string>
+    <string name="choose_pic">选择</string>
+    <string name="choose_pic_finish">完成</string>
+    <string name="choose_pic_finish_with_num">完成(%1$d/%2$d)</string>
+    <string name="choose_pic_num_out_of_index">你最多只能选择%1$d张照片</string>
+    <string name="finish">完成</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="not_choose_any_pick">你还没有选择任何图片</string>
+    <string name="open_CAMERA">请先允许程序打开照相机</string>
+    <string name="open_Location">请先允许程序打开定位服务</string>
+    <string name="open_READ_EXTERNAL_STORAGE">请先允许程序访问储存空间</string>
+    <string name="photo">手机</string>
+    <string name="preview_with_num">预览(%1$d)</string>
+    <string name="preview_without_num">预览</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="uploading_images">正在批量上传</string>
+    <style name="ActionSheetDialogAnimation" parent="@android:style/Animation.Dialog">
+        <item name="android:windowEnterAnimation">@anim/actionsheet_dialog_in</item>
+        <item name="android:windowExitAnimation">@anim/actionsheet_dialog_out</item>
+    </style>
+    <style name="ActionSheetDialogStyle">
+        <!-- 背景透明 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <!-- 浮于Activity之上 -->
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <!-- 边框 -->
+        <item name="android:windowFrame">@null</item>
+        <!-- Dialog以外的区域模糊效果 -->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!-- 无标题 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 半透明 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- Dialog进入及退出动画 -->
+        <item name="android:windowAnimationStyle">@style/ActionSheetDialogAnimation</item>
+    </style>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="AppTheme.Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">44dp</item>
+        <item name="android:textSize">18dp</item>
+    </style>
+    <style name="AppTheme.Button.Green">
+        <item name="android:background">#0ac39e</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+    </style>
+    <style name="AppTheme.Button.Highlight">
+        <item name="android:background">#4185f2</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+    <declare-styleable name="CircleView">
+        <attr format="color" name="circle_color"/>
+    </declare-styleable>
+</resources>

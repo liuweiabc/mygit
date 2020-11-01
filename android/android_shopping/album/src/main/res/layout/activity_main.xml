@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:background="@color/white"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="#0ac39e">
+
+        <ImageView
+            android:id="@+id/iv_go_back"
+            android:layout_width="45dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:scaleType="centerInside"
+            android:src="@drawable/back_02"/>
+
+        <TextView
+            android:id="@+id/tv_upload"
+            android:layout_width="45dp"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="相册"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:visibility="visible"/>
+
+    </RelativeLayout>
+
+<android.support.v7.widget.RecyclerView
+    android:id="@+id/mRecyclerView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"/>
+
+</LinearLayout>

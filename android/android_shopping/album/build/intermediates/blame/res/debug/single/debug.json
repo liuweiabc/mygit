@@ -1,0 +1,210 @@
+[
+    {
+        "merged": "D:\\MyPhoto\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_arrows_right.png.flat",
+        "source": "D:\\MyPhoto\\app\\src\\main\\res\\drawable-xxhdpi\\arrows_right.png"
+    },
+    {
+        "merged": "D:\\MyPhoto\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_grid_view.xml.flat",
+        "source": "D:\\MyPhoto\\app\\src\\main\\res\\layout\\item_grid_view.xml"
+    },
+    {
+        "merged": "D:\\MyPhoto\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_arrow_check.png.flat",
+        "source": "D:\\MyPhoto\\app\\src\\main\\res\\drawable-xxhdpi\\ic_arrow_check.png"
+    },
+    {
+        "merged": "D:\\MyPhoto\\app\\build\\intermediates\\res\\merged\\debug\\anim_actionsheet_dialog_in.xml.flat",
+        "source": "D:\\MyPhoto\\app\\src\\main\\res\\anim\\actionsheet_dialog_in.xml"
+    },
+    {
+        "merged": "D:\\MyPhoto\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher_1.png.flat",
+        "source": "D:\\MyPhoto\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher_1.png"
+    },
+    {
+        "merged": "D:\\MyPhoto\\app\\build\\intermediates\\res\\merged\\debug\\layout_action_sheet_dialog.xml.flat",
+        "source": "D:\\MyPhoto\\app\\src\\main\\res\\layout\\action_sheet_dialog.xml"
+    },
+    {
+        "merged": "D:\\MyPhoto\\app\\build\\intermediates\\res\\merged\\debug\\drawable_actionsheet_bottom_selector.xml.flat",
+        "source": "D:\\MyPhoto\\app\\src\\main\\res\\drawable\\actionsheet_bottom_selector.xml"
+    },
+    {
+        "merged": "D:\\MyPhoto\\app\\build\\intermediates\\res\\merged\\debug\\layout_widget_zoom_iamge.xml.flat",
+        "source": "D:\\MyPhoto\\app\\src\\main\\res\\layout\\widget_zoom_iamge.xml"
+    },
+    {
+        "merged": "D:\\MyPhoto\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_default_pic.png.flat",
+        "source": "D:\\MyPhoto\\app\\src\\main\\res\\drawable-xhdpi\\default_pic.png"
+    },
+    {
+        "merged": "D:\\MyPhoto\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_image_default.png.flat",
+        "source": "D:\\MyPhoto\\app\\src\\main\\res\\drawable-xhdpi\\image_default.png"
+    },
+    {
+        "merged": "D:\\MyPhoto\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_image_not_chose.png.flat",
+        "source": "D:\\MyPhoto\\app\\src\\main\\res\\drawable-xhdpi\\image_not_chose.png"
+    },
+    {
+        "merged": "D:\\MyPhoto\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_list_view_album_directory.xml.flat",
+        "source": "D:\\MyPhoto\\app\\src\\main\\res\\layout\\item_list_view_album_directory.xml"
+    },
+    {
+        "merged": "D:\\MyPhoto\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_toast_actionsheet_top_pressed.9.png.flat",
+        "source": "D:\\MyPhoto\\app\\src\\main\\res\\drawable-hdpi\\toast_actionsheet_top_pressed.9.png"
+    },
+    {
+        "merged": "D:\\MyPhoto\\app\\build\\intermediates\\res\\merged\\debug\\drawable_actionsheet_top_selector.xml.flat",
+        "source": "D:\\MyPhoto\\app\\src\\main\\res\\drawable\\actionsheet_top_selector.xml"
+    },
+    {
+        "merged": "D:\\MyPhoto\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_add_img.png.flat",
+        "source": "D:\\MyPhoto\\app\\src\\main\\res\\drawable-xxhdpi\\ic_add_img.png"
+    },
+    {
+        "merged": "D:\\MyPhoto\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_pull_up_arrow.9.png.flat",
+        "source": "D:\\MyPhoto\\app\\src\\main\\res\\drawable-xhdpi\\pull_up_arrow.9.png"
+    },
+    {
+        "merged": "D:\\MyPhoto\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tab_tv_normal.xml.flat",
+        "source": "D:\\MyPhoto\\app\\src\\main\\res\\drawable\\tab_tv_normal.xml"
+    },
+    {
+        "merged": "D:\\MyPhoto\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_photo_album.xml.flat",
+        "source": "D:\\MyPhoto\\app\\src\\main\\res\\layout\\activity_photo_album.xml"
+    },
+    {
+        "merged": "D:\\MyPhoto\\app\\build\\intermediates\\res\\merged\\debug\\anim_actionsheet_dialog_out.xml.flat",
+        "source": "D:\\MyPhoto\\app\\src\\main\\res\\anim\\actionsheet_dialog_out.xml"
+    },
+    {
+        "merged": "D:\\MyPhoto\\app\\build\\intermediates\\res\\merged\\debug\\layout_image_list_item.xml.flat",
+        "source": "D:\\MyPhoto\\app\\src\\main\\res\\layout\\image_list_item.xml"
+    },
+    {
+        "merged": "D:\\MyPhoto\\app\\build\\intermediates\\res\\merged\\debug\\drawable_actionsheet_single_selector.xml.flat",
+        "source": "D:\\MyPhoto\\app\\src\\main\\res\\drawable\\actionsheet_single_selector.xml"
+    },
+    {
+        "merged": "D:\\MyPhoto\\app\\build\\intermediates\\res\\merged\\debug\\anim_translate.xml.flat",
+        "source": "D:\\MyPhoto\\app\\src\\main\\res\\anim\\translate.xml"
+    },
+    {
+        "merged": "D:\\MyPhoto\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher_1.png.flat",
+        "source": "D:\\MyPhoto\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher_1.png"
+    },
+    {
+        "merged": "D:\\MyPhoto\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher_1.png.flat",
+        "source": "D:\\MyPhoto\\app\\src\\main\\res\\drawable-xxhdpi\\ic_launcher_1.png"
+    },
+    {
+        "merged": "D:\\MyPhoto\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_icon_addpic_unfocused.png.flat",
+        "source": "D:\\MyPhoto\\app\\src\\main\\res\\drawable-hdpi\\icon_addpic_unfocused.png"
+    },
+    {
+        "merged": "D:\\MyPhoto\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_view_photo.xml.flat",
+        "source": "D:\\MyPhoto\\app\\src\\main\\res\\layout\\activity_view_photo.xml"
+    },
+    {
+        "merged": "D:\\MyPhoto\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_pick_up_image.xml.flat",
+        "source": "D:\\MyPhoto\\app\\src\\main\\res\\layout\\item_pick_up_image.xml"
+    },
+    {
+        "merged": "D:\\MyPhoto\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_image_not_chose.png.flat",
+        "source": "D:\\MyPhoto\\app\\src\\main\\res\\mipmap-xxhdpi\\image_not_chose.png"
+    },
+    {
+        "merged": "D:\\MyPhoto\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_directory_bg.9.png.flat",
+        "source": "D:\\MyPhoto\\app\\src\\main\\res\\drawable-xxhdpi\\directory_bg.9.png"
+    },
+    {
+        "merged": "D:\\MyPhoto\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "D:\\MyPhoto\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\MyPhoto\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_upload_photo.xml.flat",
+        "source": "D:\\MyPhoto\\app\\src\\main\\res\\layout\\activity_upload_photo.xml"
+    },
+    {
+        "merged": "D:\\MyPhoto\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_take_pic.9.png.flat",
+        "source": "D:\\MyPhoto\\app\\src\\main\\res\\drawable-xhdpi\\take_pic.9.png"
+    },
+    {
+        "merged": "D:\\MyPhoto\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_image_choose.png.flat",
+        "source": "D:\\MyPhoto\\app\\src\\main\\res\\drawable-xhdpi\\image_choose.png"
+    },
+    {
+        "merged": "D:\\MyPhoto\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_toast_actionsheet_single_pressed.9.png.flat",
+        "source": "D:\\MyPhoto\\app\\src\\main\\res\\drawable-hdpi\\toast_actionsheet_single_pressed.9.png"
+    },
+    {
+        "merged": "D:\\MyPhoto\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_back_02.png.flat",
+        "source": "D:\\MyPhoto\\app\\src\\main\\res\\drawable-xxhdpi\\back_02.png"
+    },
+    {
+        "merged": "D:\\MyPhoto\\app\\build\\intermediates\\res\\merged\\debug\\drawable_edit.xml.flat",
+        "source": "D:\\MyPhoto\\app\\src\\main\\res\\drawable\\edit.xml"
+    },
+    {
+        "merged": "D:\\MyPhoto\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_toast_actionsheet_bottom_normal.9.png.flat",
+        "source": "D:\\MyPhoto\\app\\src\\main\\res\\drawable-hdpi\\toast_actionsheet_bottom_normal.9.png"
+    },
+    {
+        "merged": "D:\\MyPhoto\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher_1.png.flat",
+        "source": "D:\\MyPhoto\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher_1.png"
+    },
+    {
+        "merged": "D:\\MyPhoto\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_photo_album.xml.flat",
+        "source": "D:\\MyPhoto\\app\\src\\main\\res\\layout\\item_photo_album.xml"
+    },
+    {
+        "merged": "D:\\MyPhoto\\app\\build\\intermediates\\res\\merged\\debug\\drawable_actionsheet_middle_selector.xml.flat",
+        "source": "D:\\MyPhoto\\app\\src\\main\\res\\drawable\\actionsheet_middle_selector.xml"
+    },
+    {
+        "merged": "D:\\MyPhoto\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_toast_actionsheet_middle_pressed.9.png.flat",
+        "source": "D:\\MyPhoto\\app\\src\\main\\res\\drawable-hdpi\\toast_actionsheet_middle_pressed.9.png"
+    },
+    {
+        "merged": "D:\\MyPhoto\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_add_square.png.flat",
+        "source": "D:\\MyPhoto\\app\\src\\main\\res\\drawable-xxhdpi\\add_square.png"
+    },
+    {
+        "merged": "D:\\MyPhoto\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_image_choose.png.flat",
+        "source": "D:\\MyPhoto\\app\\src\\main\\res\\mipmap-xxhdpi\\image_choose.png"
+    },
+    {
+        "merged": "D:\\MyPhoto\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_view_photo.xml.flat",
+        "source": "D:\\MyPhoto\\app\\src\\main\\res\\layout\\item_view_photo.xml"
+    },
+    {
+        "merged": "D:\\MyPhoto\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tv_selector.xml.flat",
+        "source": "D:\\MyPhoto\\app\\src\\main\\res\\drawable\\tv_selector.xml"
+    },
+    {
+        "merged": "D:\\MyPhoto\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_pick_image.xml.flat",
+        "source": "D:\\MyPhoto\\app\\src\\main\\res\\layout\\activity_pick_image.xml"
+    },
+    {
+        "merged": "D:\\MyPhoto\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_toast_actionsheet_bottom_pressed.9.png.flat",
+        "source": "D:\\MyPhoto\\app\\src\\main\\res\\drawable-hdpi\\toast_actionsheet_bottom_pressed.9.png"
+    },
+    {
+        "merged": "D:\\MyPhoto\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_toast_actionsheet_top_normal.9.png.flat",
+        "source": "D:\\MyPhoto\\app\\src\\main\\res\\drawable-hdpi\\toast_actionsheet_top_normal.9.png"
+    },
+    {
+        "merged": "D:\\MyPhoto\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_toast_actionsheet_single_normal.9.png.flat",
+        "source": "D:\\MyPhoto\\app\\src\\main\\res\\drawable-hdpi\\toast_actionsheet_single_normal.9.png"
+    },
+    {
+        "merged": "D:\\MyPhoto\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_toast_actionsheet_middle_normal.9.png.flat",
+        "source": "D:\\MyPhoto\\app\\src\\main\\res\\drawable-hdpi\\toast_actionsheet_middle_normal.9.png"
+    },
+    {
+        "merged": "D:\\MyPhoto\\app\\build\\intermediates\\res\\merged\\debug\\drawable_choose_directory_bg.xml.flat",
+        "source": "D:\\MyPhoto\\app\\src\\main\\res\\drawable\\choose_directory_bg.xml"
+    },
+    {
+        "merged": "D:\\MyPhoto\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_look_big_image.xml.flat",
+        "source": "D:\\MyPhoto\\app\\src\\main\\res\\layout\\activity_look_big_image.xml"
+    }
+]

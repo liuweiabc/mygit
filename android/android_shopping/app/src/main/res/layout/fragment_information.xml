@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".informationFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/informationtop"
+            android:scaleType="fitXY">
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src = "@drawable/infofensi"
+                android:background="#00000000"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="30dp"/>
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src = "@drawable/infodianzan"
+                android:background="#00000000"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="65dp"/>
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src = "@drawable/infopinglun"
+                android:background="#00000000"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="65dp"/>
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src = "@drawable/infozhuanfa"
+                android:background="#00000000"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="65dp"/>
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/lv1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            />
+    </LinearLayout>
+
+</FrameLayout>

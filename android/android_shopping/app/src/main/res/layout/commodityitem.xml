@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="200dp"
+    android:layout_height="200dp"
+    android:background="@drawable/shanpingbackground"
+    android:orientation="vertical"
+    android:scaleType = "fitXY"
+    android:layout_marginLeft="7dp">
+
+    <ImageView
+        android:id = "@+id/goodspic"
+        android:layout_width="200dp"
+        android:layout_height="96dp"
+        android:src = "@drawable/goodspic"
+        android:layout_marginTop="20dp" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src = "@drawable/love"
+            android:layout_marginLeft="28dp"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src = "@drawable/numberoflove"
+            android:layout_marginTop="5dp"/>
+    </LinearLayout>
+
+    <TextView
+        android:id = "@+id/introduction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "木质家具与纯白墙壁结合，呈现出简约、安静的环境"
+        android:textSize="12sp"
+        android:layout_marginLeft="28dp"
+        android:maxEms="10"
+        android:ellipsize="end"
+        android:singleLine="true"
+        />
+</LinearLayout>

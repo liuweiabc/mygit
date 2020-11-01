@@ -1,0 +1,3 @@
+include ':UploadPhoto'
+include ':ListAndGrid'
+include ':app', ':easynavigation'

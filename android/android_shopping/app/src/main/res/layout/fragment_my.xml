@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".myFragment">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fadingEdge="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id = "@+id/mytop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src = "@drawable/mytop"
+                android:scaleType="fitXY"/>
+            <ImageView
+                android:id = "@+id/headimg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/mytop"
+                android:src = "@drawable/headimg"
+                android:layout_marginTop="-20dp"
+                android:layout_marginLeft="25dp"/>
+            <TextView
+                android:id = "@+id/mrliu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text = "请先登录"
+                android:layout_below="@+id/mytop"
+                android:layout_toRightOf="@+id/headimg"
+                android:layout_marginTop="-25dp"/>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:layout_below="@+id/mytop">
+                <ImageButton
+                    android:id = "@+id/edit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src = "@drawable/edit"
+                    android:background="#FFFFFF"/>
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src = "@drawable/addfri"
+                    android:background="#FFFFFF"
+                    android:layout_toRightOf="@+id/edit"/>
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id = "@+id/lin1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/introduction"
+                android:layout_below="@+id/headimg"
+                android:layout_marginTop="20dp">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text = "昵称:"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="10dp"/>
+                    <TextView
+                        android:id = "@+id/myname"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text = "账号:"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="5dp"/>
+                    <TextView
+                        android:id = "@+id/myphone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text = "地区:"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="5dp"/>
+                    <TextView
+                        android:id = "@+id/myaddress"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id = "@+id/lin2"
+                android:layout_below="@id/lin1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src = "@drawable/achievegood"
+                    android:background="#FFFFFF"
+                    android:layout_marginLeft="10dp"/>
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src = "@drawable/convert"
+                    android:background="#FFFFFF"
+                    android:layout_marginLeft="10dp"/>
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src = "@drawable/numberoffan"
+                    android:background="#FFFFFF"
+                    android:layout_marginLeft="10dp"/>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id = "@+id/rel3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/lin2"
+                android:background="@drawable/myorder"
+                android:layout_marginTop="10dp">
+                <ImageButton
+                    android:id = "@+id/waitpay"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src = "@drawable/waitpay"
+                    android:background="#FFFFFF"
+                    android:layout_marginTop="55dp"
+                    android:layout_marginLeft="25dp"/>
+                <ImageButton
+                    android:id = "@+id/waitsend"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src = "@drawable/waitsend"
+                    android:background="#FFFFFF"
+                    android:layout_toRightOf="@+id/waitpay"
+                    android:layout_marginTop="55dp"
+                    android:layout_marginLeft="25dp"/>
+                <ImageButton
+                    android:id = "@+id/waitrecieve"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src = "@drawable/waitrecieve"
+                    android:background="#FFFFFF"
+                    android:layout_toRightOf="@+id/waitsend"
+                    android:layout_marginTop="55dp"
+                    android:layout_marginLeft="25dp"/>
+                <ImageButton
+                    android:id = "@+id/apprasite"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src = "@drawable/appraise"
+                    android:background="#FFFFFF"
+                    android:layout_toRightOf="@+id/waitrecieve"
+                    android:layout_marginTop="55dp"
+                    android:layout_marginLeft="25dp"/>
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src = "@drawable/backtreat"
+                    android:background="#FFFFFF"
+                    android:layout_toRightOf="@+id/apprasite"
+                    android:layout_marginTop="55dp"
+                    android:layout_marginLeft="25dp"/>
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:layout_marginLeft="280dp"
+                    android:src = "@drawable/allorder"/>
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id = "@+id/lin4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_below="@id/rel3">
+
+                <ImageButton
+                    android:id = "@+id/dongtai"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src = "@drawable/dongtai"
+                    android:background="#FFFFFF"
+                    android:layout_marginLeft="80dp"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src = "@drawable/line"
+                    android:layout_marginLeft="80dp"/>
+
+                <ImageButton
+                    android:id = "@+id/shoucang"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src = "@drawable/shoucagn"
+                    android:background="#FFFFFF"
+                    android:layout_marginLeft="80dp"/>
+            </LinearLayout>
+
+            <ListView
+                android:id="@+id/lv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/lin4"
+                android:layout_marginTop="10dp"
+                />
+        </RelativeLayout>
+    </ScrollView>
+</FrameLayout>
